@@ -10,7 +10,7 @@
           <list-select
             :list="someList"
             option-value="code"
-            option-text="name"
+            option-text="html"
             :selected-item="item"
             id="mySelectId"
             name="mySelectName"
@@ -49,12 +49,12 @@ export default {
   data () {
     return {
       someList: [
-        { code: '01', name: 'aa', desc: 'desc01' },
-        { code: '02', name: 'ab', desc: 'desc02' },
-        { code: '03', name: 'bc', desc: 'desc03' },
-        { code: '04', name: 'cd', desc: 'desc04' },
-        { code: '05', name: 'de', desc: 'desc05' },
-        { code: '06', name: 'ef', desc: 'desc06' }
+        { code: '01', name: 'aa', desc: 'desc01', html: '<strong>test</strong>' },
+        { code: '02', name: 'ab', desc: 'desc02', html: '<strong>test 2</strong>' },
+        { code: '03', name: 'bc', desc: 'desc03', html: '<strong>test 3</strong>' },
+        { code: '04', name: 'cd', desc: 'desc04', html: '<strong>test 4</strong>' },
+        { code: '05', name: 'de', desc: 'desc05', html: '<strong>test 5</strong>' },
+        { code: '06', name: 'ef', desc: 'desc06', html: '<strong>test 6</strong>' }
       ],
       item: {
         code: '',
