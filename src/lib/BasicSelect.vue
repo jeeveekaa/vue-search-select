@@ -46,8 +46,8 @@
         @click.stop="selectItem(option)"
         @mousedown="mousedownItem"
         @mouseenter="pointerSet(idx)"
+        v-html="option.text"
       >
-        {{option.text}}
       </div>
     </div>
   </div>
