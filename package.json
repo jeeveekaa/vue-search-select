@@ -10,7 +10,7 @@
     "select",
     "search"
   ],
-  "main": "dist/js/app.6d12e9e2.js",
+  "main": "dist/VueSearchSelect.common.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/moreta/vue-search-select.git"
